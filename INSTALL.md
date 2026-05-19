@@ -89,3 +89,17 @@ git init
 # Launch Claude Code in this folder
 claude
 ```
+
+## Step 7: Clone an existing repo and run Claude inside it
+
+```powershell
+# Move to wherever you want the repo to live
+cd $HOME\Projects
+
+# Clone it (works for both public and private repos if you're authenticated)
+git clone https://github.com/Gama0218-lgtm/NELA.git
+cd NELA
+
+# Start Claude Code inside the repo
+claude
+```
